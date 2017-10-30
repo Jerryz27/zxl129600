@@ -1,0 +1,503 @@
+/*
+* @Author: zhanglili
+* @Date:   2017-10-23 10:18:54
+* @Last Modified by:   zhanglili
+* @Last Modified time: 2017-10-24 15:48:55
+*/
+*
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+#jerry{
+	width: 100%;
+	height: 900px;
+	background: red;
+	background-image: url('../img/bj2.jpg')
+}
+.header{
+	width: 100%;
+	height: .88rem;
+	background: #FF0036;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	padding: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .hleft>i{
+	display: block;
+	width: .8rem;
+	height: .8rem;
+	color: #fff;
+	line-height: .8rem;
+	text-align: center;
+}
+.header .hmid>input{
+	display: block;
+	width: 4.6rem;
+	height: .7rem;
+	padding-left: .8rem;
+	border-radius: 5px;
+}
+.hmid>i{
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 1.5rem;
+	margin: auto;
+	color: #ccc;
+	display: block;
+	font-size: 18px;
+}
+.header .hright{
+	width: .8rem;
+	height: .8rem;
+	color: #fff;
+	text-align: center;
+	line-height: .8rem;
+	font-size: 12px;
+	padding-right: .1rem;
+}
+.jerrybox{
+	width: 100%;
+	height: 1.78rem;
+	background-image: url('../img/bj1.jpg');
+	margin-top: .88rem;
+	padding-top: .16rem;
+}
+.logozu{
+	width: 90%;
+	height: 1.44rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logozu>div{
+	width: 1.2rem;
+	height: 1.44rem;
+}
+.logozu>div>img{
+	width: .96rem;
+	height: .96rem;
+	margin: auto;
+}
+.logozu>div>p{
+	font-size:12px;
+	margin-left: .1rem;
+	color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    padding: .2rem 0.2rem;
+    position: relative;
+    overflow: hidden;
+}
+.bannerBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bannerBox>img{
+   position: absolute;
+    top:0;
+    left:0;
+}
+.banner .lbd{
+    width: 4rem;
+    height: .2rem;
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: .2rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .lbd>li{
+    width: .4rem;
+    height: .1rem;
+    background: rgba(255,255,255,.9);
+    border-radius: .2rem;
+}
+.banner .lbd>li.active{
+    background: rgba(255,255,255,.4);
+}
+.pingjia{
+    width: 100%;
+    padding: .1rem;
+    font-size: 14px;
+    color: #333;
+}
+.qtm{
+	width: 100%;
+	height: 4.8rem;
+}
+.jerryjxbox{
+	width: 100%;
+	height: 4.04rem;
+}
+.jx{
+	width: 94%;
+	height: 100%;
+	margin: auto;
+}
+.jx>div{
+	width: 100%;
+	height: 1.2rem;
+}
+.jx>div>img{
+	width: 92%;
+	height: 100%;
+	margin: auto;
+}
+.tpzuo{
+	width: 4.22rem;
+	height: 2.82rem;
+	position: relative;
+}
+.s11{
+	width: .48rem;
+	height: .24rem;
+	position: absolute;
+	top: 1rem;
+	left: .24rem;
+}
+.jrhc{
+	width: 1.2rem;
+	height: .3rem;
+	position: absolute;
+	left: .24rem;
+	top: 2.3rem;
+}
+.tpzuo>p{
+	font-size: .38rem;
+	position: absolute;
+	left: .24rem;
+	top: 1.2rem;
+	color: #fff;
+}
+
+.tpzuo>span{
+	font-size: .24rem;
+	position: absolute;
+	left: .24rem;
+	top: 1.68rem;
+	color: #fff;
+}
+.tpyou{
+	width: 3.66rem;
+	height: 2.84rem;
+	background: #8603FD;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.tp{
+	width: 100%;
+	height: 5.6rem;
+	background: red;
+	position: relative;
+}
+.tpyou1{
+	width: 1.7rem;
+	height: 2.6rem;
+	background: #fff;
+	float: left;
+	margin-top: .12rem;
+	position: relative;
+}
+.tpyou2{
+	width: 1.7rem;
+	height: 2.6rem;
+	background: #fff;
+	float: left;
+	margin-top: .12rem;
+	margin-left: .12rem;
+	position: relative;
+}
+.tpyou>div>p{
+	font-size: .2rem;
+	margin-top: .2rem;
+	margin-left: .2rem;
+}
+.tpyou>div>span{
+	font-size: .18rem;
+}
+.tpyou>div>img{
+	width: .48rem;
+	height: .24rem;
+	margin-left: .2rem;
+	margin-top: .4rem;
+	
+}
+.tpyou1>span{
+	position: absolute;
+	top: .5rem;
+	left: .2rem;
+}
+.tpyou2>span{
+	position: absolute;
+	top: .5rem;
+	left: .2rem;
+}
+.liangyoutu{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	bottom: .2rem;
+	left: .3rem;
+}
+.tmgfzybox{
+	width: 100%;
+	height: 5.8rem;
+	background: #fff;
+}
+.tmgfzy{
+	width: 94%;
+	height: 100%;
+	margin: auto;
+}
+.tmgfzy1{
+	width: 97%;
+	height: 100%;
+}
+.shang{
+	width: 100%;
+	height: 1.3rem;
+}
+.xia{
+	width: 100%;
+	height: 4.5rem;
+	position: relative;
+}
+.xia>img{
+	width: 3rem;
+	height: 4.5rem;
+}
+
+.xiayou{
+	width: 4rem;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.xyshang{
+	width: 100%;
+	height: 50%;
+}
+.xyxia{
+	width: 100%;
+	height: 50%;
+}
+.xyshang1{
+	width: 2rem;
+	height: 2.24rem;
+	float: left;
+}
+.xyshang2{
+	width: 2rem;
+	height: 2.24rem;
+	float: left;
+}
+.jkzy{
+	width: 1.56rem;
+	height: .36rem;
+	margin-left: .2rem;
+}
+.xyshang1>p{
+	font-size: .22rem;
+	color: #ccc;
+	margin-left: .2rem;
+}
+.mangjian{
+	width: 1.2rem;
+	height: .3rem;
+	margin-left: .2rem;
+}
+.gfzybox{
+	width: 100%;
+	height: 2.6rem;
+}
+.gfzy{
+	width: 94%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.gfzy1{
+	width: 3rem;
+	height: 100%;
+	position: relative;
+}
+.gfzy1>p{
+	font-size: .27rem;
+	line-height: .8rem;
+	margin-left: .2rem;
+}
+.gfzy1>span{
+	font-size: .22rem;
+	margin-left: .2rem;
+	color: #FF005E;
+	position: absolute;
+	top: .5rem;
+}
+.gfzy1>img{
+	width: .48rem;
+	height: .24rem;
+	position: absolute;
+	top: .8rem;
+	left: .2rem;
+}
+.gfzytu{
+	width: 2.4rem;
+	height: 1.2rem;
+	position: absolute;
+	top: 1.2rem;
+	left: .2rem;
+}
+.gfzytu>img{
+	width: 1.1rem;
+	height: 1.1rem;
+	float: left;
+}
+.gfzy2{
+	width: 2rem;
+	height: 100%;
+	position: absolute;
+	left: 3rem;
+	top: 0;
+}
+.gfzy2>p{
+	font-size: .27rem;
+	line-height: .8rem;
+	margin-left: .2rem;
+}
+.gfzy2>span{
+	font-size: .22rem;
+	margin-left: .2rem;
+	color: #FF005E;
+	position: absolute;
+	top: .5rem;
+}
+.gfzy2>img{
+	width: .48rem;
+	height: .24rem;
+	position: absolute;
+	top: .8rem;
+	left: .2rem;
+}
+.gfzy3{
+	width: 2rem;
+	height: 100%;
+	position: absolute;
+	left: 5rem;
+	top: 0;
+}
+.gfzy3>p{
+	font-size: .27rem;
+	line-height: .8rem;
+	margin-left: .2rem;
+}
+.gfzy3>span{
+	font-size: .22rem;
+	margin-left: .2rem;
+	color: #FF005E;
+	position: absolute;
+	top: .5rem;
+}
+.gfzy3>img{
+	width: .48rem;
+	height: .24rem;
+	position: absolute;
+	top: .8rem;
+	left: .2rem;
+}
+.splbbox{
+	width: 100%;
+}
+.splb{
+	width: 94%;
+	height: 100%;
+	margin: auto;
+}
+.splb1{
+	width: 100%;
+	height: 6.65rem;
+	margin-top: .4rem;
+}
+.sple1you{
+	width: 47%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.splb1zuo{
+	width: 47%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+.splbtu{
+	width: 3.28rem;
+	height: 3.28rem;
+}
+.splbwz1{
+	font-size: .27rem;
+	color: #3E3E3E;
+}
+.sple1you>p{
+	font-size: .24rem;
+	color: #FF3B44;
+}
+.splbwz2{
+	width: 3.28rem;
+	height: 6.9rem;
+	margin-top: .2rem;
+}
+.splbwz2>span{
+	font-size: .32rem;
+	float: left;
+}
+.splbwz2>i{
+	float: right;
+}
+.splbwz4>span{
+	color: #2683FF;
+	font-size: .22rem;
+}
+.splbwz4>p{
+	font-size: .22rem;
+
+}
+.splbwz3>span{
+	color: #2683FF;
+	font-size: .22rem;
+}
+.splbwz3>p{
+	font-size: .22rem;
+
+}
+.splbwz3{
+	position: absolute;
+	bottom: 0;
+}
+.splbwz4{
+	position: absolute;
+	bottom: 0;
+}
+.splb1zuo>p{
+	font-size: .24rem;
+	color: #FF3B44;
+}
